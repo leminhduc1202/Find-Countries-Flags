@@ -3,21 +3,25 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/select_country_container"
     android:layout_width="match_parent"
-    android:layout_height="57dp"
-    android:background="@color/purple_500"
+    android:layout_height="wrap_content"
     android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/select_country_text"
+    <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
-        android:text="United States 🇺🇸"
-        android:textColor="@android:color/white"
-        android:textSize="18sp" />
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        app:cardCornerRadius="10dp">
+
+        <TextView
+            android:id="@+id/select_country_text"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:gravity="center_vertical"
+            android:text="United States 🇺🇸"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+    </androidx.cardview.widget.CardView>
 
 </RelativeLayout>
