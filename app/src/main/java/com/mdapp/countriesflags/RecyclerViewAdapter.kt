@@ -1,4 +1,4 @@
-package com.example.searchViewInRoom
+package com.mdapp.countriesflags
 
 import android.content.Context
 import android.content.Intent
@@ -9,7 +9,7 @@ import android.view.ViewGroup
 import android.widget.Filter
 import android.widget.Filterable
 import androidx.recyclerview.widget.RecyclerView
-import com.example.searchViewInRoom.databinding.RowLayoutBinding
+import com.mdapp.countriesflags.databinding.RowLayoutBinding
 import java.util.*
 import kotlin.collections.ArrayList
 

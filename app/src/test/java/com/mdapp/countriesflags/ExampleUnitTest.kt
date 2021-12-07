@@ -1,4 +1,4 @@
-package com.example.searchViewInRoom
+package com.mdapp.countriesflags
 
 import org.junit.Test
 

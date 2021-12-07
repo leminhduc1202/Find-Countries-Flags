@@ -1,4 +1,4 @@
-package com.example.searchViewInRoom
+package com.mdapp.countriesflags
 
 import android.graphics.Color
 import android.os.Bundle
@@ -8,7 +8,7 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.searchViewInRoom.databinding.ActivityMainBinding
+import com.mdapp.countriesflags.databinding.ActivityMainBinding
 import java.util.*
 import kotlin.collections.ArrayList
 
