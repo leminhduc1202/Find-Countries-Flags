@@ -5,7 +5,10 @@
       <map>
         <entry key="..\:/Android Project/Persional Project/searchViewInRoom-master/searchViewInRoom-master/app/src/main/res/font/jockey_one.xml" value="0.25052083333333336" />
         <entry key="..\:/Android Project/Persional Project/searchViewInRoom-master/searchViewInRoom-master/app/src/main/res/layout/activity_detail.xml" value="0.2203125" />
-        <entry key="..\:/Android Project/Persional Project/searchViewInRoom-master/searchViewInRoom-master/app/src/main/res/layout/activity_main.xml" value="0.20052083333333334" />
+        <entry key="..\:/Android Project/Persional Project/searchViewInRoom-master/searchViewInRoom-master/app/src/main/res/layout/activity_home.xml" value="0.37395833333333334" />
+        <entry key="..\:/Android Project/Persional Project/searchViewInRoom-master/searchViewInRoom-master/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Android Project/Persional Project/searchViewInRoom-master/searchViewInRoom-master/app/src/main/res/layout/content_home.xml" value="0.3880208333333333" />
+        <entry key="..\:/Android Project/Persional Project/searchViewInRoom-master/searchViewInRoom-master/app/src/main/res/layout/detail_list_items.xml" value="0.3880208333333333" />
         <entry key="..\:/Android Project/Persional Project/searchViewInRoom-master/searchViewInRoom-master/app/src/main/res/layout/row_layout.xml" value="0.5" />
         <entry key="..\:/Android Project/Persional Project/searchViewInRoom-master/searchViewInRoom-master/app/src/main/res/menu/menu.xml" value="0.3880208333333333" />
         <entry key="..\:/New folder/SearchRecyclerViewDemo-master/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.21614583333333334" />

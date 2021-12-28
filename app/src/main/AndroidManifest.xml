@@ -9,15 +9,17 @@
         android:roundIcon="@drawable/ic_logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.SearchRecyclerviewDemo">
-        <activity android:name="com.mdapp.countriesflags.MainActivity">
+        <activity
+            android:name=".NesterRecyclerView.HomeActivity"
+            android:exported="false" />
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.mdapp.countriesflags.DetailsActivity" />
-
+        <activity android:name=".DetailsActivity" />
     </application>
 
 </manifest>

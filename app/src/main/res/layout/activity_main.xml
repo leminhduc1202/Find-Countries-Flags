@@ -9,15 +9,33 @@
     android:orientation="vertical"
     tools:context="com.mdapp.countriesflags.MainActivity">
 
-    <androidx.appcompat.widget.SearchView
-        android:id="@+id/country_search"
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/purple_500"
-        android:textCursorDrawable="@null"
-        app:iconifiedByDefault="false"
-        app:queryBackground="@null"
-        app:queryHint="Search here"/>
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/country_search"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_500"
+            android:textCursorDrawable="@null"
+            app:iconifiedByDefault="false"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:queryBackground="@null"
+            app:queryHint="Search here" />
+
+        <Button
+            android:id="@+id/bt_next_screen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next Screen"
+            android:textAllCaps="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 
     <androidx.recyclerview.widget.RecyclerView

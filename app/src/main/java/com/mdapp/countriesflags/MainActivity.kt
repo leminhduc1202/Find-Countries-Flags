@@ -1,5 +1,6 @@
 package com.mdapp.countriesflags
 
+import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
 import android.widget.ImageView
@@ -8,6 +9,7 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.mdapp.countriesflags.NesterRecyclerView.HomeActivity
 import com.mdapp.countriesflags.databinding.ActivityMainBinding
 import java.util.*
 import kotlin.collections.ArrayList
@@ -50,6 +52,11 @@ class MainActivity : AppCompatActivity() {
 
         })
         getListOfCountries()
+
+        binding.btNextScreen.setOnClickListener {
+            val intent = Intent(this, HomeActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     private fun getListOfCountries() {
